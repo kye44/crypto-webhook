@@ -1,7 +1,10 @@
 import express, { Application, Router, Request, Response } from 'express';
 import { Guid } from 'guid-typescript';
-import IWebHookEvent from './schema';
+import { IWebHookEvent } from './schema';
 
+/**
+ * @summary
+ */
 export class WebHookListener {
     private readonly router: Router;
     private path: string;

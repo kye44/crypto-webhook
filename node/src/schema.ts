@@ -1,4 +1,4 @@
-export default interface IWebHookEvent {
+export interface IWebHookEvent {
     Event: string;
     Content: any;
 }
