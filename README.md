@@ -1,6 +1,7 @@
 # crypto-webhook
 Repository for the implementations of the crypto-webhook packages.
-### Usage
+## Usage
+### Typescript
 ```Typescript
     const webHookManager = new WebHookManager(3001);
     webHookManager.AddWebHookListener(new WebHookListener([
