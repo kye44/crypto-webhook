@@ -1,0 +1,32 @@
+{
+    "name": "crypto-webhook",
+    "version": "1.0.0",
+    "description": "Package to help with creating webhooks to get updates from the crypto API.",
+    "keywords": [
+        "crypto",
+        "webhook",
+        "typescript",
+        "typed"
+    ],
+    "homepage": "https://github.com/kye44/event-ag",
+    "types": "./index.d.ts",
+    "main": "lib/index.js",
+    "bugs": {
+        "url": "https://github.com/kye44/event-ag/issues"
+    },
+    "scripts": {
+        "build": "npx tsc",
+        "start": "nodemon --exec ts-node src/index.ts"
+    },
+    "author": "Kye Purkis",
+    "license": "ISC",
+    "devDependencies": {
+        "@types/express": "^4.17.13",
+        "nodemon": "^2.0.15",
+        "typescript": "^4.3.4"
+    },
+    "dependencies": {
+        "express": "^4.17.1",
+        "guid-typescript": "^1.0.9"
+    }
+}
